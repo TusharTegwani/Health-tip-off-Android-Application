@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/letter"
+            android:title="Daily Hunts" />
+    </group>
+
+
+        <item android:title="Help and Feedback">
+            <menu>
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@android:drawable/btn_star_big_off"
+                    android:title="@string/menu_rate" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/question"
+                    android:title="@string/menu_help" />
+            </menu>
+    </item>
+
+
+</menu>

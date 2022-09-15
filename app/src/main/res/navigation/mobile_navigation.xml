@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.health.ui.FAQs"
+        android:label="@string/menu_help"
+        tools:layout="@layout/f_a_qs_fragment" />
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.example.health.ui.Help"
+        android:label="@string/menu_rate"
+        tools:layout="@layout/help_fragment" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.health.ui.home.HomeFragment"
+        android:label="Health tip-off"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.health.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.health.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
